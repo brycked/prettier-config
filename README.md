@@ -16,4 +16,16 @@ pnpm add --dev @bricked/prettier-config
 
 ## Usage
 
-`prettier-config` can be used as a shared Prettier configuration for my projects.
+Add the Prettier config to your `package.json`:
+
+```json
+{
+  "prettier": "@bricked/prettier-config"
+}
+```
+
+Or to `.prettierrc.js`:
+
+```js
+module.exports = require("@bricked/prettier-config");
+```
