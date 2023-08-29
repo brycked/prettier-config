@@ -9,6 +9,7 @@ const config: Config = {
   tabWidth: 2,
   trailingComma: "es5",
   useTabs: false,
+  proseWrap: "always",
 };
 
 module.exports = config;
